@@ -1,39 +1,39 @@
 
 # do next:
 # dependencies
-server/node_modules
-server/.pnp
-server.pnp.js
+server/api-routes-rest-appnode_modules
+server/api-routes-rest-app.pnp
+server/api-routes-rest-app.pnp.js
 
 # testing
-server/coverage
+server/api-routes-rest-appcoverage
 
 # next.js
-server/.next/
-server/out/
+server/api-routes-rest-app.next/
+server/api-routes-rest-appout/
 
 # production
-server/build
+server/api-routes-rest-appbuild
 
 # misc
-server/.DS_Store
-server/*.pem
+server/api-routes-rest-app.DS_Store
+server/api-routes-rest-app*.pem
 
 # debug
-server/npm-debug.log*
-server/yarn-debug.log*
-server/yarn-error.log*
-server/.pnpm-debug.log*
+server/api-routes-rest-appnpm-debug.log*
+server/api-routes-rest-appyarn-debug.log*
+server/api-routes-rest-appyarn-error.log*
+server/api-routes-rest-app.pnpm-debug.log*
 
 # local env files
-server/.env*.local
+server/api-routes-rest-app.env*.local
 
 # vercel
-server/.vercel
+server/api-routes-rest-app.vercel
 
 # typescript
-server/*.tsbuildinfo
-server/next-env.d.ts
+server/api-routes-rest-app*.tsbuildinfo
+server/api-routes-rest-appnext-env.d.ts
 
 
 # do react:
