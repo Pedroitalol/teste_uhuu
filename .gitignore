@@ -1,0 +1,64 @@
+
+# do next:
+# dependencies
+server/node_modules
+server/.pnp
+server.pnp.js
+
+# testing
+server/coverage
+
+# next.js
+server/.next/
+server/out/
+
+# production
+server/build
+
+# misc
+server/.DS_Store
+server/*.pem
+
+# debug
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/.pnpm-debug.log*
+
+# local env files
+server/.env*.local
+
+# vercel
+server/.vercel
+
+# typescript
+server/*.tsbuildinfo
+server/next-env.d.ts
+
+
+# do react:
+
+# Logs
+cliente/my-veu-app/logs
+cliente/my-veu-app/*.log
+cliente/my-veu-app/npm-debug.log*
+cliente/my-veu-app/yarn-debug.log*
+cliente/my-veu-app/yarn-error.log*
+cliente/my-veu-app/pnpm-debug.log*
+cliente/my-veu-app/lerna-debug.log*
+
+cliente/my-veu-app/node_modules
+cliente/my-veu-app/dist
+cliente/my-veu-app/dist-ssr
+cliente/my-veu-app/*.local
+
+# Editor directories and files
+cliente/my-veu-app/.vscode/*
+cliente/my-veu-app/!.vscode/extensions.json
+cliente/my-veu-app/.idea
+cliente/my-veu-app/.DS_Store
+cliente/my-veu-app/*.suo
+cliente/my-veu-app/*.ntvs*
+cliente/my-veu-app/*.njsproj
+cliente/my-veu-app/*.sln
+cliente/my-veu-app/*.sw?
